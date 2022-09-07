@@ -295,8 +295,10 @@ main {
 
 @media screen and (max-width: 500px) {
   main#homme h1 {
+    padding: 2rem;
     margin-top: 10vh; }
-  main a:hover {
-    color: #ccae07; }
+  .lg-heading {
+    margin-top: 1rem;
+    font-size: 5rem; }
   .projects {
     grid-template-columns: 1fr; } }

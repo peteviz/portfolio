@@ -68,11 +68,16 @@
 // smartphone
 @include mediaSm {
     main#homme h1{
+        padding: 2rem;
         margin-top: 10vh;
     }
-    main a:hover {
-        color: $secondary-color;
+
+    .lg-heading {
+        margin-top:1rem;
+        font-size: 5rem;
     }
+
+
 
     .projects{
         grid-template-columns : 1fr;
